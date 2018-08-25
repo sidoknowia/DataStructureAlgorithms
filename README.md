@@ -4,24 +4,22 @@ DS &amp; Algos in Javascript and Python
 
 Javascript
 
-Stack
+- Stack
 
-Queue 		(TODO)
+- Queue 		(TODO)
 
-Heap 		(TODO)
+- Heap 		(TODO)
 
-Tree
+- Tree
 
 	- DFS
 	- BFS
 
 
-LinkedList  (TODO)
+- LinkedList  
 
-	- Single
-	- Double
 
-Graphs 		(TODO)
+- Graphs 		(TODO)
 
 	- DFS
 	- BFS

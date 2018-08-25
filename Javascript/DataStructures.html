@@ -49,3 +49,23 @@
 	console.log("========== Binary Tree Ends==========");
 	
 </script>
+
+<script type="text/javascript" src="LinkedList.js"></script>
+
+<script type="text/javascript">
+
+console.log("========== Linked List ==========");
+
+
+var LHead = new ListNode(null, null, 60);
+var LL1 = new ListNode(null ,LHead, 50);
+var LL2 = new ListNode(null ,LL1, 80);
+var LL3 = new ListNode(null ,LL2, 10);
+
+LHead.addNext(LL1);
+LL1.addNext(LL2);
+LL2.addNext(LL3);
+
+console.log(LHead)
+console.log("========== Linked List Ends==========");
+</script>
