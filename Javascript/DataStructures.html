@@ -1,0 +1,51 @@
+<script type="text/javascript" src="stack.js"></script>
+<script type="text/javascript">
+
+	console.log("========== Stack ==========");
+	s = new Stack();
+	s.push(2);
+	s.push(1);
+	console.log(s);
+	console.log(s.find(3));
+	console.log(s.pop());
+	console.log("========== Stack Ends==========");
+
+</script>
+
+<script type="text/javascript" src="tree.js"></script>
+<script type="text/javascript">
+
+	console.log("========== Binary Tree ==========");
+
+	th1 = new TreeNode(null, null, null, 60);
+
+	tl1 = new TreeNode(th1, null, null, 40);
+	tr1 = new TreeNode(th1, null, null, 100);
+
+	th1.addLeftChild(tl1);
+	th1.addRightChild(tr1);
+
+
+	tl1_l1 = new TreeNode(tl1, null, null, 20);
+	tl1_r1 = new TreeNode(tl1, null, null, 45);
+
+	tl1.addLeftChild(tl1_l1);
+	tl1.addRightChild(tl1_r1);
+
+	tr1_l1 = new TreeNode(tr1, null, null, 80);
+	tr1_r1 = new TreeNode(tr1, null, null, 120);
+
+	tr1.addLeftChild(tr1_l1);
+	tr1.addRightChild(tr1_r1);
+
+	console.log(th1);
+
+	var a = th1.dfs(45)
+	console.log(a);
+
+	var b = th1.bfs(45)
+	console.log(b);
+
+	console.log("========== Binary Tree Ends==========");
+	
+</script>
