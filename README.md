@@ -4,8 +4,10 @@ DS &amp; Algos in Javascript and Python
 
 Javascript
 
-Stack 
+Stack
+
 Queue 		(TODO)
+
 Heap 		(TODO)
 
 Tree
@@ -17,6 +19,7 @@ LinkedList  (TODO)
 	- Double
 
 Graphs 		(TODO)
+
 	- DFS
 	- BFS
 	- Dijkstras
