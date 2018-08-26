@@ -1,4 +1,4 @@
-# DataStructureAlgorithms
+# Data Structure Algorithms
 DS &amp; Algos in Javascript and Python
 
 
