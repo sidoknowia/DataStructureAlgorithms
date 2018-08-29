@@ -31,3 +31,13 @@ Javascript
 
 
 Python ( TODO )
+
+- Search
+	- Linear
+	- Binary
+
+- Sort
+	- Merge
+	- Quicksort (TODO)
+
+- BST
