@@ -30,7 +30,7 @@ Javascript
 
 
 
-Python ( TODO )
+Python
 
 - Search
 	- Linear
