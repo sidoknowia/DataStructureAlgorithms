@@ -37,7 +37,8 @@ Python
 	- Binary
 
 - Sort
-	- Merge
+	- Merge Sort
+	- Selection Sort
 	- Quicksort (TODO)
 
 - BST
